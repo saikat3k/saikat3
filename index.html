@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration From</title>
+</head>
+<body>
+    <h3>Students Registration From</h3>
+    <hr>
+    <table border="1">
+        <tbody>
+            <th>
+                <p>Please enter relevent information</p>
+    <small>Mandatory Field*</small>
+    <main>
+        <label for="District">District (<sub>Institute District: Where you want to do your course</sub>)*</label> <br>
+        <select name="District" id="District" width="100">
+            <option value="--slect one--">--select one--</option>
+            <option value="Dhaka">Dhaka</option>
+            <option value="Narayanganj">Narayanganj</option>
+            <option value="Bogura">Bogura</option>
+            <option value="Gazipur">Gazipur</option>
+            <option value="Mymensing">Mymensing</option>
+            <option value="Naogaon">Naogaon</option>
+        </select>
+<br>
+        <label for="course">Course*</label><br>
+        <select name="Course" id="course">
+            <option value="">--Select One--</option>
+            <option value="1">Web Design & Devolopment - 2020</option>
+            <option value="2">Graphic Design - 2020</option>
+            <option value="3">Digital Marketing - 2020</option>
+        </select><br>
+
+        <label for="name">Student Name*</label><br>
+        <input type="text" id="name"><br>
+        <label for="fname">Father Name*</label><br>
+        <input type="text" name="" id="fname"><br>
+        <label for="mname">Mother Name*</label><br>
+        <input type="text" name="" id="mname"><br>
+        <div>
+            <label for="">Date of birth:</label>
+            <table>
+                <tbody>
+                    <td>Day:</td>
+                    <td>month:</td>
+                    <td>year:</td>
+                </tbody>
+                <tr>
+                    <td>
+                        <select>
+                            <option value="select">Select</option>
+                            <option value="select">1</option>
+                            <option value="select">2</option>
+                            <option value="select">3</option>
+                            <option value="select">4</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="" id="">
+                            <option value="select">Select</option>
+                            <option value="select">1</option>
+                            <option value="select">2</option>
+                            <option value="select">3</option>
+                            <option value="select">4</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="" id="">
+                            <option value="select">Select</option>
+                            <option value="select">2000</option>
+                            <option value="select">2001</option>
+                            <option value="select">2002</option>
+                            <option value="select">2003</option>
+                            <option value="select">2004</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </div><br>
+        <label for="">Gender*</label>
+        <label for="male">Male</label>
+        <input type="radio" name="rad" id="male" value="Male">
+        <label for="female">Female</label>
+        <input type="radio" name="rad" id="female" value="Female">
+        <br>
+
+        <label for="">Physically Handicapped*</label>
+        <label for="yes">Yes</label>
+        <input type="radio" name="yn" id="yes">
+        <label for="no">No</label>
+        <input type="radio" name="yn" id="no"><br>
+        <label for="email">Email*</label><br>
+        <input type="email" name="" id="email"><br>
+        <small>(e.g:example@mail.com)</small><br>
+        <label for="phone">Phone (Must be 11 Digits)*</label><br>
+        <input type="text" name="" id="phone"><br>
+        <small>(e.g:01551234561)</small>
+
+    </main>
+
+            </th>
+            <th>
+                <div>
+                    <label for="idty">Identification Type*</label><br>
+                    <select name="" id="">
+                        <option value="Select One">Select One</option>
+                        <option value="1">Birth Certificate No.</option>
+                        <option value="2">National ID</option>
+                    </select><br>
+                    <label for="">Identification No. (Must be 10 digits for new NID or 17 digits for old NID. <br> If your National ID is 13 digits, then please add your birth year with the ID as prefix. <br> Example: 1980XXXXXXXXXXXXX)*</label><br>
+                    <input type="text" id="idty"><br>
+                    <label for="HomeD">Home District</label><br>
+                    <select name="" id="HomeD">
+                        <option value="Select One">Select One</option>
+                        <option value="1">Bagerhat</option>
+                        <option value="2">Bandarban</option>
+                        <option value="2">Baguna</option>
+                        <option value="2">Barisal</option>
+                    </select><br>
+
+                    <label for="upz">Upazila*</label><br>
+                    <select name="" id="upz">
+                        <option value="Select One">Select One</option>
+                        <option value="Select One"></option>
+                    </select><br>
+
+                    <label for="adre">Village/House No./Road No./Other <br> Alternative*</label><br>
+                    <input type="text" id="adre"><br>
+
+                    <label for="postO">Post office*</label><br>
+                    <input type="text" name="" id="postO"><br>
+
+                    <label for="edu">Educational Qualification* (<small>Higher Level</small>)</label><br>
+                    <select name="" id="">
+                        <option value="--Select One--">--Select One--</option>
+                        <option value="1">Higher Secondary/Equivalent</option>
+                        <option value="2">Bachelor</option>
+                        <option value="3">Master</option>
+                        <option value="4">Phd</option>
+                    </select><br>
+
+                    <label for="pc">Have any Computer?*</label>
+                    <label for="pcc">Yes</label>
+                    <input type="radio" name="pc1" id="pcc">
+                    <label for="pcc">No</label>
+                    <input type="radio" name="pc1" id="pcc"><br>
+
+                    <label for="fil">Photograph*</label><br>
+                    <input type="file" name="" id="fil"><br>
+                    <label>(file type must be jpg or jpeg or png . Maximum file size 2mb.)</label><br>
+                    <label for="fil2">Signature*</label><br>
+                    <input type="file" name="" id="fil2"><br>
+                    <label for="">(File type must be jpg or jpeg or png Maximum file size 2 mb)</label><br>
+                    <label for="sub">Submit</label><br>
+                    <input type="submit" name="" id="">
+
+
+
+            
+            
+                </div>
+
+            </th>
+        </tbody>
+    </table>
+
+    <div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116833.83187902115!2d90.33728818728464!3d23.780975728108746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2sDhaka!5e0!3m2!1sen!2sbd!4v1700742513473!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </div>
+</body>
+</html>
